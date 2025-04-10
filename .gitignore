@@ -1,50 +1,36 @@
-# =====================
-# Python bytecode and cache
-# =====================
+# Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
-*.pyo
-*.pyd
+*$py.class
 
-# =====================
-# Conda environments and virtualenvs
-# =====================
-.venv/
-venv/
+# C extensions
+*.so
+
+# Virtual environments
 env/
-env.bak/
-env_old/
-*.conda
+venv/
+.venv/
+.env/  # In case it's a folder
 
-# =====================
-# Environment configuration
-# =====================
-.env              # Secrets like API keys
-.env.*            # Other env variants (.env.local, .env.dev, etc.)
-*.yml
-*.yaml
-!environment.yml  # Keep this one to share the conda environment
+# Environment variables file
+.env
 
-# =====================
-# Jupyter Notebooks
-# =====================
+# Jupyter Notebook checkpoints
 .ipynb_checkpoints/
 
-# =====================
+# VSCode settings
+.vscode/
+
+# Pytest cache
+.pytest_cache/
+
+# mypy
+.mypy_cache/
+
 # Logs and temp files
-# =====================
 *.log
 *.tmp
-*.bak
 
-# =====================
-# OS-specific files
-# =====================
+# macOS / Windows / Linux system files
 .DS_Store
 Thumbs.db
-
-# =====================
-# IDE/editor folders
-# =====================
-.vscode/
-.idea/
