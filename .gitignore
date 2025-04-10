@@ -1,31 +1,50 @@
-# Python-specific
+# =====================
+# Python bytecode and cache
+# =====================
 __pycache__/
 *.py[cod]
 *.pyo
 *.pyd
-*.env
 
-# Environment variables
-.env
+# =====================
+# Conda environments and virtualenvs
+# =====================
+.venv/
+venv/
+env/
+env.bak/
+env_old/
+*.conda
 
-# Conda environment files
-environment.yml
+# =====================
+# Environment configuration
+# =====================
+.env              # Secrets like API keys
+.env.*            # Other env variants (.env.local, .env.dev, etc.)
+*.yml
+*.yaml
+!environment.yml  # Keep this one to share the conda environment
 
-# Logs
+# =====================
+# Jupyter Notebooks
+# =====================
+.ipynb_checkpoints/
+
+# =====================
+# Logs and temp files
+# =====================
 *.log
-logs/
 *.tmp
-*.temp
+*.bak
 
-# Build artifacts
-build/
-dist/
-*.egg-info/
-
-# IDE-specific
-.vscode/
-.idea/
-
-# OS-specific
+# =====================
+# OS-specific files
+# =====================
 .DS_Store
 Thumbs.db
+
+# =====================
+# IDE/editor folders
+# =====================
+.vscode/
+.idea/
