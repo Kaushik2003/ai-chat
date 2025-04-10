@@ -28,9 +28,8 @@ conda env update -f environment.yml --prune
 
 ### 2. Activate Environment
 ```bash
-conda activate your-env-name
+conda activate chatbot
 ```
-Replace `your-env-name` with the name specified in environment.yml.
 
 ### 3. Run the Backend Server
 ```bash
