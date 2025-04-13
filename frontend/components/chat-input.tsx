@@ -36,7 +36,7 @@ export function ChatInput({ onSubmit, disabled = false }: ChatInputProps) {
       <Button
         type="submit"
         size="icon"
-        className="absolute right-2 top-1/2 transform -translate-y-1/2 bg-gray-700 hover:bg-gray-600 text-white rounded-full"
+        className="absolute right-2 top-1/2 transform -translate-y-1/2 bg-gray-700 hover:bg-gray-500 text-white rounded-full"
         disabled={!input.trim() || disabled}
       >
         <Send className="h-4 w-4" />
