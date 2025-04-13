@@ -23,8 +23,17 @@ project-root/
 ### 1. Create or Update Conda Environment
 ```bash
 # Create the environment from the yml file
+conda env create -f environment.yml
+```
+
+```bash
+# update the environment from the yml file
 conda env update -f environment.yml --prune
 ```
+
+
+
+
 
 ### 2. Activate Environment
 ```bash
